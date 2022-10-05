@@ -22,7 +22,6 @@ Sepsis labeling: https://github.com/alistairewj/sepsis3-mimic
 ### Challenge
 data link: https://physionet.org/content/challenge-2019/1.0.0/
 
-Preprocessing: the code will release soon.
 
 After preprocessing, data can be placed under `data` file. Taking `mimic` as an example, subfile `1-79` means the percentage of labeled data is 1% and unlabeled data is 79%, while mimic_test.csv means the data for testing.    
 
