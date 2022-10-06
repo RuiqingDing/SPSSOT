@@ -39,3 +39,5 @@ where
 - `ot_alpha`: the weight of optimal transport
 
 
+
+![time consumption with different bacth sizes](./figures/A.tableVI.png)
