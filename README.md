@@ -40,4 +40,4 @@ where
 
 
 
-![time consumption with different bacth sizes](./figures/A.tableVI.png)
+<img src="./figures/A.tableVI.png" width=60% div align = center />
