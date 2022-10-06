@@ -68,7 +68,7 @@ As for the source private features, it is difficult to transfer by optimal trans
 [5] Ma, Liantao, et al. "Distilling knowledge from publicly available online emr data to emerging epidemic for prognosis." WWW (2021).
 
 
-## Run Model ((Github)[https://github.com/RuiqingDing/SPSSOT])
+## Run Model ([Github](https://github.com/RuiqingDing/SPSSOT))
 
 ### Requirements
 
