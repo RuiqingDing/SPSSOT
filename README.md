@@ -2,7 +2,7 @@
 
 Semi-supervised Optimal Transport withSelf-paced Ensemble for Cross-hospital SepsisEarly Detection
 
-## Supplemental Results ([full paper](./SPSSOT_full.pdf) [appendix](./SPSSOT_Appendix.pdf))
+## Supplemental Results ([1. full paper](./SPSSOT_full.pdf) & [2. appendix](./SPSSOT_Appendix.pdf))
 
 ### A. Training Time Consumption
 
@@ -45,7 +45,7 @@ As shown in **Table IX**, adding an explicit step of outlier removal has no noti
 ![outlier removal](./figures/C.tableIX.png)
 
 
-### D. The selection of $\rho$ in Label Adaptive Constraint
+### D. Selection of $\rho$ in Label Adaptive Constraint
 
 In Eq.(3), we adapt a parameter, $\rho$, to adjust the transport cost between two samples with the same label; especially when $\rho = 0$, the transport cost is 0; when $\rho =1$, the transport cost is calculated only according to the similarity of features (same as the unsupervised setting). We set $\rho = \{0, 0.05, 0.1, 0.2, 0.4\}$ and conduct experiments. The results are shown in **Table X**.  It can be observed that when $\rho$ is small (between 0 to 0.1), the performance is better and relatively stable; then as $\rho$ increases, the AUC shows a slow downward trend. This indicates that in our task, it is better to set a small value to $\rho$, and setting $\rho = 0$ (i.e., ignoring the transport cost if two samples have the same label) is also reasonable.  In *SPSSOT*, we set $\rho$ to 0.1 and 0.05 for MIMIC $\to$ Challenge and Challenge $\to$ MIMIC, respectively.
 
@@ -89,6 +89,7 @@ Transferring the knowledge from source private features for the prediction in th
 [4] Isolation forest. ICDM (2008).
 
 [5] Distilling knowledge from publicly available online emr data to emerging epidemic for prognosis. WWW (2021).
+
 
 
 
