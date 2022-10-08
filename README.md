@@ -2,7 +2,7 @@
 
 Semi-supervised Optimal Transport withSelf-paced Ensemble for Cross-hospital SepsisEarly Detection
 
-## Supplemental Results ([1. full paper](./SPSSOT_full.pdf) & [2. appendix](./SPSSOT_Appendix.pdf))
+## Supplemental Results ([full paper](./pdfs/SPSSOT_full.pdf) & [appendix](./pdfs/SPSSOT_Appendix.pdf))
 
 ### A. Training Time Consumption
 
@@ -54,7 +54,7 @@ In Eq.(3), we adapt a parameter, $\rho$, to adjust the transport cost between tw
 
 ### E. Unmatched Features
 
-In *SPSSOT*, we filter out the shared features of two domains (listed in **Table I**) and adopt a domain-shared feature generator $\mathcal{G}$.  However, both datasets have their own private features, which are enumerated in **Table XI**. Considering that our task is a transfer learning setting, we discuss the private features for the target domain and source domain separately.
+In *SPSSOT*, we use only the features shared by two domains (listed in **Table I**) with a domain-shared feature generator $\mathcal{G}$. Here, we list the (unmatched) private features of two datsets in **Table XI**. Considering that our task is a transfer learning setting, we discuss the private features for the target domain and source domain separately.
 
 ![private faetures](./figures/E.tableXI.png)
 
