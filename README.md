@@ -2,7 +2,7 @@
 
 Semi-supervised Optimal Transport withSelf-paced Ensemble for Cross-hospital SepsisEarly Detection
 
-## Supplemental Results ([pdf](...))
+## Supplemental Results ([full paper](./SPSSOT_full.pdf) [appendix](./SPSSOT_Appendix.pdf))
 
 ### A. Training Time Consumption
 
